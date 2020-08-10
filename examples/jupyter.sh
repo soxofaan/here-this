@@ -12,7 +12,9 @@ conda activate jupyter-env
 
 # Launch Jupyter.
 #################
+# Use predefined security token?
+# export JUPYTER_TOKEN="t"
 jupyter notebook
 
 # Sleep a bit to allow capturing of error messages if launching Jupyter failed.
-sleep 5
+sleep 3
